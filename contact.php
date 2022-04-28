@@ -90,8 +90,7 @@
     <section id="contact-page">
         <div class="container">
             <div class="large-title text-center">        
-                <h2>Drop Your Message</h2>
-                <p>All users on MySpace will know that there are millions of people out there. Every day <br> besides so many people joining this community.</p>
+                <h2>Your Message</h2>
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>

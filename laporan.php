@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Laporan PDF Plus Filter Periode Tanggal</title>
+    <title>Laporan Pendaftaran Vaksinasi</title>
 
     <!-- Include file CSS Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,10 +18,10 @@
 </head>
 <body>
     <div style="padding: 15px;">
-        <h3 style="margin-top: 0;"><b>Laporan PDF Plus Filter Periode Tanggal</b></h3>
+        <h3 style="margin-top: 0;"><b>Laporan Pendaftaran Vaksinasi</b></h3>
         <hr />
 
-        <form method="get" action="halaman.php?page=laporan">
+        <form method="get" action="lap.php">
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <div class="form-group">
@@ -54,7 +54,7 @@
             // Buat query untuk menampilkan semua data transaksi
             $query = "SELECT * FROM pendaftaran";
             $url_cetak = "cetak.php";
-            $label = "Semua Data Transaksi";
+            $label = "Semua Data Pendaftaran";
         }else{ // Jika terisi
             // Buat query untuk menampilkan data transaksi sesuai periode tanggal
             $query = "SELECT * FROM pendaftaran WHERE (tgl_daftar BETWEEN '".$tgl_awal."' AND '".$tgl_akhir."')";

@@ -174,7 +174,15 @@
             <div class="col-md-6">
             <div class ="form-group">
                 <label> Tanggal Vaksin</label>
-                  <input type="text" name="tgl_vaksin" class="form-control" >
+                <select name="tgl_vaksin" class="form-control">
+						<option value="">--Pilih--</option>
+						<option value="2022-06-06">2022-06-06</option>
+						<option value="2022-06-07">2022-06-07</option>
+						<option value="2022-06-08">2022-06-08</option>
+                        <option value="2022-06-09">2022-06-09</option>
+                        <option value="2022-06-10">2022-06-10</option>
+                        <option value="2022-06-11">2022-06-11</option>
+            </select>
             </div>
             </div>
             <div class="col-md-6">
@@ -198,6 +206,7 @@
 						<option value="moderna">Moderna</option>
 						<option value="sinovac">Sinovak</option>
 						<option value="astrazeneca">AstraZeneca</option>
+                        <option value="pfizer">Pfizer</option>
             </select>
             </div>
             </div>

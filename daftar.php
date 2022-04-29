@@ -78,11 +78,9 @@
                     <div class="col-sm-6 col-xs-12">
                         <div class="social">
                             <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="https://www.facebook.com/ratthyii.nduet"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.instagram.com/ratinduet/?hl=id"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <div class="search">
                                 <form role="form">
@@ -107,7 +105,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/baru.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">

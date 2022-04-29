@@ -122,6 +122,13 @@ font-size: 16px;">Sistem Pendaftaran Vaksinasi Online &nbsp; <a href="logout.php
     
     <script src="assets/js/dataTables/jquery.dataTables.js"></script>
     <script src="assets/js/dataTables/dataTables.bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Include library Bootstrap Datepicker -->
+    <script src="plugin/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- Include File JS Custom (untuk fungsi Datepicker) -->
+    <script src="js/custom.js"></script>
         <script>
             $(document).ready(function () {
                 $('#dataTables-example').dataTable();

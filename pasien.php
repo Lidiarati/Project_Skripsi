@@ -1,4 +1,12 @@
+<?php 
+include('koneksi.php');
+session_start();
 
+if (!isset($_SESSION['username'])) {
+    header("Location:login.php");
+}
+
+?>
 <div class="row">
                 <div class="col-md-12">
                     <!-- Advanced Tables -->

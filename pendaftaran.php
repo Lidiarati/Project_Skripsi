@@ -1,4 +1,12 @@
 <?php 
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location:login.php");
+}
+
+?>
+<?php 
 	include 'koneksi.php';
   if(isset($_POST['submit'])){
     	// ambil 1 id terbesar di kolom id_pendaftaran, lalu ambil 5 karakter aja dari sebelah kanan

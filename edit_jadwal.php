@@ -1,3 +1,10 @@
+<?php 
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location:login.php");
+}
+?>
 <?php
  include('koneksi.php');
  if(!isset($_GET['id_jadwal'])){

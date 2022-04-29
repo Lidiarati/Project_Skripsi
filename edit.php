@@ -90,6 +90,18 @@ if(isset($_POST['submit'])){
                 <input class="form-control" type='text'name ='tgl_vaksin' value="<?php echo $p->tgl_vaksin ?>" >
                 </div>
                 <div class="form-group">
+				<label>Tanggal Vaksin</label>
+					<select name="tgl_vaksin" class="form-control" required>
+						<option value="">--Pilih--</option>
+						<option value="2022-06-06" <?php if($p->jenis_vaksin == '2022-06-06'){ echo 'selected'; } ?>>2022-06-06</option>
+						<option value="2022-06-07" <?php if($p->jenis_vaksin == '2022-06-07'){ echo 'selected'; } ?>>2022-06-07</option>
+                        <option value="2022-06-08" <?php if($p->jenis_vaksin == '2022-06-08'){ echo 'selected'; } ?>>2022-06-08</option>
+                        <option value="2022-06-09" <?php if($p->jenis_vaksin == '2022-06-09'){ echo 'selected'; } ?>>2022-06-09</option>
+                        <option value="2022-06-10" <?php if($p->jenis_vaksin == '2022-06-10'){ echo 'selected'; } ?>>2022-06-10</option>
+                        <option value="2022-06-11" <?php if($p->jenis_vaksin == '2022-06-11'){ echo 'selected'; } ?>>2022-06-11</option>
+                    </select>
+                </div>
+                <div class="form-group">
 				<label>Kategori</label>
 					<select name="kategori" class="form-control" required>
 						<option value="">--Pilih--</option>
@@ -105,6 +117,7 @@ if(isset($_POST['submit'])){
 						<option value="moderna" <?php if($p->jenis_vaksin == 'moderna'){ echo 'selected'; } ?>>Moderna</option>
 						<option value="sinovac" <?php if($p->jenis_vaksin == 'sinocac'){ echo 'selected'; } ?>>Sinovac</option>
                         <option value="astrazeneca" <?php if($p->jenis_vaksin == 'astrazeneca'){ echo 'selected'; } ?>>Astrazeneca</option>
+                        <option value="pfizer" <?php if($p->jenis_vaksin == 'pfizer'){ echo 'selected'; } ?>>Pfizer</option>
                     </select>
                 </div>
                 <div><label for="vaksin_ke">Vaksin Ke :</label>

@@ -1,3 +1,11 @@
+<?php 
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location:login.php");
+}
+
+?>
 <h3>Tambah Jadwal</h3>
 <div class="panel panel-primary">
 <div class="panel-heading">

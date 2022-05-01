@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" type="text/css" href="style1.css">
 
-	<title>Register Form - Pure Coding</title>
+	<title>Register Akun</title>
 </head>
 <body>
 	<div class="container">
@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
 			<div class="input-group">
 				<button name="submit" class="btn">Register</button>
 			</div>
-			<p class="login-register-text">Sudah Punya Akun? <a href="login.php">Login Here</a>.</p>
+			<p class="login-register-text">Sudah Punya Akun? <a href="login_user.php">Login Here</a>.</p>
 		</form>
 	</div>
 </body>

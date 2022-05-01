@@ -77,7 +77,8 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Home</a></li>
                         <li><a href="daftar.php">Daftar Vaksinasi</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><a href="login_admin.php">Login Admin</a></li>
+                        <li><a href="akun.php">Registrasi</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
@@ -106,10 +107,12 @@
                                     <h1 class="animation animated-item-1">Selamat Datang di</h1>
                                     <div class="animation animated-item-2">
                                     Sistem Informasi Pendaftaran Online Covid 19 Kabupaten Manggarai Timur</div> <br>
-                                    <p>Sebelum melakukan vaksinasi COVID-19, peserta mendaftar terlebih dahulu dengan cara klik tombol DAFTAR.
+                                    <p>Sebelum melakukan vaksinasi COVID-19, peserta mendaftar terlebih dahulu dengan cara melakukan registrasi </p>
+                                    <p> setelah mempunyai akun, lalu klik tombol DAFTAR.
                                     Selanjutnya peserta wajib mencetak bukti Pendaftaran dan dibawa ke meja pendaftaran sesuai jadwal yang telah ditetapkan.</p>
                                     
-                                    <a class="btn-slide animation animated-item-3" href="daftar.php">Daftar Sekarang</a>
+                                    <a class="btn-slide animation animated-item-3" href="daftar.php">Daftar vaksinasi</a>
+                                    <a class="btn-slide black animation animated-item-3" href="akun.php">Registrasi Akun</a>
                                 </div>
                             </div>
 

@@ -77,7 +77,8 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="daftar.php">Daftar Vaksinasi</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><a href="login_admin.php">Login Admin</a></li>
+                        <li><a href="akun.php">Registrasi</a></li>
                         <li class="active"><a href="contact.php">Contact</a></li>                        
                     </ul>
                 </div>

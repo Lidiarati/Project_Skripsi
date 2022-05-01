@@ -7,7 +7,7 @@ session_start();
 error_reporting(0);
 
 if (isset($_SESSION['username'])) {
-    header("Location: halaman.php?page=dashboard");
+    header("Location: daftar.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 	if ($result->num_rows > 0) {
 		$row = mysqli_fetch_assoc($result);
 		$_SESSION['username'] = $row['username'];
-		header("Location:halaman.php?page=dashboard");
+		header("Location:daftar.php");
 	} else {
 		echo "<script>alert('Woops! Email or Password is Wrong.')</script>";
 	}
@@ -52,6 +52,7 @@ if (isset($_POST['submit'])) {
 			<div class="input-group">
 				<button name="submit" class="btn">Login</button>
 </div>
+<p class="login-register-text">Belum Punya Akun? <a href="akun.php">Registrasi Sekarang</a>.</p>
 		</form>
 	</div>
 </body>

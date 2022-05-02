@@ -1,4 +1,11 @@
+<?php
+ session_start();
 
+ // cek apakah yang mengakses halaman ini sudah login
+ if($_SESSION['level']==""){
+  header("location:login_admin.php?pesan=gagal");
+ }
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

@@ -1,10 +1,10 @@
-<?php 
-session_start();
+<?php
+ session_start();
 
-if (!isset($_SESSION['username'])) {
-    header("Location:login.php");
-}
-
+ // cek apakah yang mengakses halaman ini sudah login
+ if($_SESSION['level']==""){
+  header("location:login_admin.php?pesan=gagal");
+ }
 ?>
 <h3>Tambah Jadwal</h3>
 <div class="panel panel-primary">

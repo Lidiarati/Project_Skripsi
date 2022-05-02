@@ -1,9 +1,11 @@
 <?php 
 include('koneksi.php');
-session_start();
-if (!isset($_SESSION['username'])) {
-    header("Location:login.php");
-}
+ session_start();
+
+ // cek apakah yang mengakses halaman ini sudah login
+ if($_SESSION['level']==""){
+  header("location:login_admin.php?pesan=gagal");
+ }
 ?>
 <div class="row">
                 <div class="col-md-12">

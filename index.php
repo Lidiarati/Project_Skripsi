@@ -99,20 +99,20 @@
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/5.jpg)">
+                <div class="item active" style="background-image: url(images/slider/cor.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Selamat Datang di</h1>
-                                    <div class="animation animated-item-2">
+                                    <div class="text-body">
                                     Sistem Informasi Pendaftaran Online Covid 19 Kabupaten Manggarai Timur</div> <br>
-                                    <p>Sebelum melakukan vaksinasi COVID-19, peserta mendaftar terlebih dahulu dengan cara melakukan registrasi </p>
-                                    <p> setelah mempunyai akun, lalu klik tombol DAFTAR.
+                                    <p class="bg-primary text-white">Sebelum melakukan vaksinasi COVID-19, peserta mendaftar terlebih dahulu dengan cara melakukan registrasi </p>
+                                    <p class="text-dark"> setelah mempunyai akun, lalu klik tombol DAFTAR.
                                     Selanjutnya peserta wajib mencetak bukti Pendaftaran dan dibawa ke meja pendaftaran sesuai jadwal yang telah ditetapkan.</p>
                                     
                                     <a class="btn-slide animation animated-item-3" href="daftar.php">Daftar vaksinasi</a>
-                                    <a class="btn-slide black animation animated-item-3" href="akun.php">Registrasi Akun</a>
+                                    <a class="btn-slide white animation animated-item-3" href="akun.php">Registrasi Akun</a>
                                 </div>
                             </div>
 
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <!--/.item-->
-                <div class="item" style="background-image: url(images/slider/4.jpg)">
+                <div class="item" style="background-image: url(images/slider/6.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7">
@@ -130,7 +130,7 @@
                                     Sebelum melakukan vaksinasi COVID-19, peserta mendaftar terlebih dahulu dengan cara klik tombol DAFTAR.
                                     Selanjutnya peserta wajib mencetak bukti Pendaftaran dan dibawa ke meja pendaftaran sesuai jadwal yang telah ditetapkan.
                                     </div>
-                                    <a class="btn-slide white animation animated-item-3" href="daftar_pasien.php">Daftar Sekarang</a>
+                                    <a class="btn-slide white animation animated-item-3" href="daftar.php">Daftar Sekarang</a>
                                 </div>
                             </div>
 

@@ -99,7 +99,7 @@
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/cor.jpg)">
+                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <!--/.item-->
-                <div class="item" style="background-image: url(images/slider/6.jpg)">
+                <div class="item" style="background-image: url(images/slider/cor.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7">

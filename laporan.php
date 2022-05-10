@@ -81,6 +81,11 @@
                 <th>Nama Pasien</th>
                 <th>NIK</th>
                 <th>NO HP</th>
+                <th>Alamat</th>
+                <th>Jenis Kelamin</th>
+                <th>Tanggal Vaksin</th>
+                <th>Jenis Vaksin</th>
+                <th>Vaksin Ke</th>
                 </tr>
 
                 </thead>
@@ -99,6 +104,11 @@
                             echo "<td>".$data['nama_pasien']."</td>";
                             echo "<td>".$data['nik']."</td>";
                             echo "<td>".$data['no_hp']."</td>";
+                            echo "<td>".$data['alamat']."</td>";
+                            echo "<td>".$data['jk']."</td>";
+                            echo "<td>".$data['tgl_vaksin']."</td>";
+                            echo "<td>".$data['jenis_vaksin']."</td>";
+                            echo "<td>".$data['vaksin_ke']."</td>";
                             echo "</tr>";
                         }
                     }else{ // Jika data tidak ada

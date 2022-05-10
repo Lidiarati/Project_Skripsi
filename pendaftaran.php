@@ -45,31 +45,31 @@ if (!isset($_SESSION['username'])) {
           <form  method ='POST' action =''>
               <div class =" item form-group">
                   <label> Nama Lengkap</label>
-                    <input type="text" name="nama_pasien" class="form-control">
+                    <input type="text" name="nama_pasien" class="form-control" required="" autofocus="" data-errormessage-value-missing='Nama masih kosong'>
               </div>
               <div class ="form-group">
                 <label> NIK</label>
-                  <input type="text" name="nik" class="form-control">
+                  <input type="text" name="nik" class="form-control" required="" autofocus="" data-errormessage-value-missing='NIK masih kosong'>
             </div>
             <div class ="form-group">
                 <label> Alamat</label>
-                  <textarea type="text" name="alamat" class="form-control"rows="4"></textarea>
+                  <textarea type="text" name="alamat" class="form-control"rows="4" required="" autofocus="" data-errormessage-value-missing='Alamat masih kosong'></textarea>
             </div>
             <div class ="form-group">
                 <label> Tanggal Lahir</label>
-                  <input type="date" name="tgl_lahir" class="form-control" >
+                  <input type="date" name="tgl_lahir" class="form-control" required="" autofocus="" data-errormessage-value-missing='tgl lahir masih kosong' >
             </div>
-            <div><label for="jk" class="form-control" >Jenis Kelamin </label>
+            <div><label for="jk" class="form-control" required="" autofocus="" data-errormessage-value-missing='jk masih kosong' >Jenis Kelamin </label>
                 <label><input type="radio" name="jk" value="laki-laki"> Laki-laki</label> &nbsp; &nbsp;
                 <label><input type="radio" name="jk" value="perempuan"> Perempuan</label>
             </div>
             <div class ="form-group">
                 <label> No HP</label>
-                  <input type="text" name="no_hp" class="form-control">
+                  <input type="text" name="no_hp" class="form-control" required="" autofocus="" data-errormessage-value-missing='no hp masih kosong'>
             </div> 
             <div class ="form-group">
             <label> Tanggal Vaksin</label>
-                <select name="tgl_vaksin" class="form-control">
+                <select name="tgl_vaksin" class="form-control" required="" autofocus="" data-errormessage-value-missing='tanggal vaksin masih kosong'>
                         <option value="">--Pilih--</option>
                         <option value="2022-06-06">2022-06-06</option>
                         <option value="2022-06-07">2022-06-07</option>
@@ -81,7 +81,7 @@ if (!isset($_SESSION['username'])) {
             </div> 
             <div class ="form-group">
             <label>Kategori</label>
-					  <select name="kategori" class="form-control">
+					  <select name="kategori" class="form-control" required="" autofocus="" data-errormessage-value-missing='kategori masih kosong'>
 						<option value="">--Pilih--</option>
 						<option value="umum">Umum</option>
 						<option value="remaja">Remaja</option>
@@ -90,7 +90,7 @@ if (!isset($_SESSION['username'])) {
             </div>
             <div class ="form-group">
             <label>Jenis Vaksin</label>
-					  <select name="jenis_vaksin" class="form-control">
+					  <select name="jenis_vaksin" class="form-control" required="" autofocus="" data-errormessage-value-missing='jenis vaksin masih kosong'>
 						<option value="">--Pilih--</option>
 						<option value="moderna">Moderna</option>
 						<option value="sinovac">Sinovak</option>
@@ -99,7 +99,7 @@ if (!isset($_SESSION['username'])) {
             </select>
             </div>
             <div class ="form-group">
-            <div><label for="vaksin_ke" class="form-control" >Vaksin Ke </label>
+            <div><label for="vaksin_ke" class="form-control" required="" autofocus="" data-errormessage-value-missing=' vaksin ke masih kosong' >Vaksin Ke </label>
                 <label><input type="radio" name="vaksin_ke" value="satu"> Satu</label> &nbsp; &nbsp;
                 <label><input type="radio" name="vaksin_ke" value="dua"> Dua</label>&nbsp;&nbsp;
                 <label><input type="radio" name="vaksin_ke" value="tiga"> Tiga</label>

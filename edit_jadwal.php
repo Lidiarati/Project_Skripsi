@@ -1,12 +1,4 @@
 <?php
- session_start();
-
- // cek apakah yang mengakses halaman ini sudah login
- if($_SESSION['level']==""){
-  header("location:login_admin.php?pesan=gagal");
- }
-?>
-<?php
  include('koneksi.php');
  if(!isset($_GET['id_jadwal'])){
     header('Location: halaman.php?page=jadwal');}

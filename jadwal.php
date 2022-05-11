@@ -19,6 +19,7 @@ include('koneksi.php');
                                         <tr>
                                             <th>No</th>
                                             <th>Hari</th>
+                                            <th>id Jadwal</th>
                                             <th>Jam Buka</th>
                                             <th>Jam Tutup</th>
                                             <th>No Antrian</th>
@@ -39,6 +40,7 @@ include('koneksi.php');
                                     ?>
                                           <tr>
                                           <td><?php echo $no++; ?></td>
+                                          <td><?php echo $data['id_jadwal']; ?></td>
                                           <td><?php echo $data['hari']; ?></td>
                                           <td><?php echo $data['jam_buka']; ?></td>
                                           <td><?php echo $data['jam_tutup']; ?></td>

@@ -94,8 +94,10 @@ font-size: 16px;">Sistem Pendaftaran Vaksinasi Online &nbsp; <a href="logout.php
                             break;
                         case 'tambah_jadwal':
                             include 'tambah_jadwal.php';
+                            break;
                         case 'edit_jadwal';
                             include 'edit_jadwal.php';
+                            break;
                         case 'edit':
                             include 'edit.php';
                             break;
